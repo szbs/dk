@@ -1,0 +1,32 @@
+[ 2017-10-12T10:26:15+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003536s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004899s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-12T14:28:53+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000503s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000121s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001489s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-12T16:22:57+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002585s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000186s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003776s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-12T17:44:42+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000801s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000869s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002603s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+

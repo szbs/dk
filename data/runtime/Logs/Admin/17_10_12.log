@@ -1,0 +1,65 @@
+[ 2017-10-12T10:26:37+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000602s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000123s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001612s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000643s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000727s ]
+
+[ 2017-10-12T10:26:47+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000595s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000647s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001823s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000622s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000702s ]
+
+[ 2017-10-12T10:26:57+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000607s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000122s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000615s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000689s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0032s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0049s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0027s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-12 10:26:57',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0009s ]
+
+[ 2017-10-12T14:29:10+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000761s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000177s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001907s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000661s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000745s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0027s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0054s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0053s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-12 14:29:10',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0009s ]
+
+[ 2017-10-12T16:23:18+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000586s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000900s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002235s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001125s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001266s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0029s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0049s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0043s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-12 16:23:18',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0005s ]
+

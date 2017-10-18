@@ -1,0 +1,52 @@
+[ 2017-10-12T10:45:57+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data1  >26 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `dk_js_pro_type` WHERE (  WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data1  >26 ) 
+
+[ 2017-10-12T10:47:21+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `dk_js_pro_type` WHERE (  WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 ) 
+
+[ 2017-10-12T10:47:59+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `dk_js_pro_type` WHERE (  WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 ) 
+
+[ 2017-10-12T10:48:33+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `dk_js_pro_type` WHERE (  WHERE  type = 'age' AND ptype = 1 AND data1 <26 AND data2 >26 ) 
+
+[ 2017-10-12T10:49:40+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE  type = 'age' AND ptype = 1 AND data1 < 26 AND data2 > 26 )' at line 1
+ [ SQL语句 ] : SELECT * FROM `dk_js_pro_type` WHERE (  WHERE  type = 'age' AND ptype = 1 AND data1 < 26 AND data2 > 26 ) 
+
+[ 2017-10-12T11:46:41+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1146:Table 'daikuan.jspro' doesn't exist
+ [ SQL语句 ] : select a.*,b.* from  JsPro as a, JsUserType as b where a.pid=b.pid  order by a.id 
+
+[ 2017-10-12T11:47:22+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1054:Unknown column 'a.id' in 'order clause'
+ [ SQL语句 ] : select a.*,b.* from  dk_js_pro as a, dk_js_pro_type as b where a.pid=b.pid  order by a.id 
+
+[ 2017-10-12T14:29:16+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1' at line 1
+ [ SQL语句 ] : select a.*,b.* from  dk_js_pro as a, dk_js_pro_type as b where (a.pid NOT IN (select pid form dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1  > 26 ) order by a.pid 
+
+[ 2017-10-12T14:30:07+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1' at line 1
+ [ SQL语句 ] : select a.*,b.* from  dk_js_pro as a, dk_js_pro_type as b where (a.pid NOT IN (select pid form dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1  > 26 ) order by a.pid 
+
+[ 2017-10-12T14:30:55+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1' at line 1
+ [ SQL语句 ] : select a.*,b.* from  dk_js_pro as a, dk_js_pro_type as b where (a.pid NOT IN (select pid form dk_js_pro_type) ) OR (b.type = 'age' AND b.ptype = 1 AND b.data1 <26 AND b.data1  > 26 ) order by a.pid 
+
+[ 2017-10-12T14:49:25+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'order by a.pid desc' at line 1
+ [ SQL语句 ] : select distinct a.pid ,a.* from  dk_js_pro as a, dk_js_pro_type as b where (a.pid NOT IN (select distinct b.pid from dk_js_pro_type) )  order by a.pid desc  order by a.pid desc 
+
+[ 2017-10-12T14:51:23+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1051:Unknown table 'dk_js_pro'
+ [ SQL语句 ] : select distinct dk_js_pro.pid ,dk_js_pro.* from  dk_js_pro as a, dk_js_pro_type as b where (dk_js_pro.pid NOT IN (select distinct dk_js_pro.pid from dk_js_pro_type) )  order by dk_js_pro.pid desc 
+
+[ 2017-10-12T14:51:58+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: 1051:Unknown table 'dk_js_pro'
+ [ SQL语句 ] : select distinct dk_js_pro.pid ,dk_js_pro.* from  dk_js_pro as a, dk_js_pro_type as b where (dk_js_pro.pid NOT IN (select distinct dk_js_pro_type.pid from dk_js_pro_type) )  order by dk_js_pro.pid desc 
+

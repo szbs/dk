@@ -1,0 +1,48 @@
+[ 2017-10-17T09:49:34+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.003804s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005254s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-17T10:30:55+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001263s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002860s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-17T11:54:08+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001005s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001736s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004116s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-17T14:37:02+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000877s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000576s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002563s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-17T14:38:25+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000525s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001545s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+
+[ 2017-10-17T14:39:30+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000900s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000998s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000217s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003113s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+

@@ -1,0 +1,8 @@
+[ 2017-10-13T10:05:06+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=user&m=index&a=is_login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001807s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.002842s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005692s ]
+NOTIC: [8] Undefined index: url /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Common/Controller/AppframeController.class.php 第 22 行.
+

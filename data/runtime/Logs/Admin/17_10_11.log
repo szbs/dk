@@ -1,0 +1,35 @@
+[ 2017-10-11T08:38:14+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=setting&a=site_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.001456s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002723s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000846s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000947s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `dk_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dk_options` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `dk_options` WHERE ( option_name='site_options' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dk_options` SET `option_id`='6',`option_name`='site_options',`option_value`='{\"site_name\":\"\\u94b1\\u5c71\\u91d1\\u670d-\\u8bc4\\u4f30\\u7cfb\\u7edf\",\"site_admin_url_password\":\"\",\"site_tpl\":\"qianshan\",\"mobile_tpl_enabled\":\"1\",\"site_adminstyle\":\"flat\",\"site_icp\":\"\",\"site_admin_email\":\"admin@admin.com\",\"site_tongji\":\"\",\"site_copyright\":\"\",\"site_seo_title\":\"\\u94b1\\u5c71\\u91d1\\u670d-\\u8bc4\\u4f30\\u7cfb\\u7edf\",\"site_seo_keywords\":\"\\u94b1\\u5c71\\u91d1\\u670d-\\u8bc4\\u4f30\\u7cfb\\u7edf\",\"site_seo_description\":\"\\u94b1\\u5c71\\u91d1\\u670d-\\u8bc4\\u4f30\\u7cfb\\u7edf\",\"urlmode\":\"0\",\"html_suffix\":\"\",\"comment_time_interval\":\"60\"}' WHERE ( option_name='site_options' ) [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dk_options` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `dk_options` WHERE ( option_name='cmf_settings' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dk_options` SET `option_name`='cmf_settings',`option_value`='{\"banned_usernames\":\"\"}' WHERE ( option_name='cmf_settings' ) [ RunTime:0.0001s ]
+SQL: SELECT * FROM `dk_options` WHERE `option_name` = 'cdn_settings' LIMIT 1   [ RunTime:0.0001s ]
+SQL: UPDATE `dk_options` SET `option_value`='{\"cdn_static_root\":\"\"}' WHERE `option_name` = 'cdn_settings' [ RunTime:0.0001s ]
+
+[ 2017-10-11T13:56:39+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000488s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000605s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000129s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001639s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000653s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0039s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0054s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-11 13:56:39',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0010s ]
+

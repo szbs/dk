@@ -1,0 +1,30 @@
+[ 2017-10-18T10:00:33+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000575s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000127s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001599s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000604s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0018s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0031s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0047s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-18 10:00:33',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0007s ]
+
+[ 2017-10-18T13:52:11+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000690s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000133s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000679s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0019s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0054s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0052s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-18 13:52:11',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0009s ]
+

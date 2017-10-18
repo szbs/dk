@@ -1,0 +1,117 @@
+[ 2017-10-13T10:05:24+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=public&a=dologin
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000646s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001750s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000787s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000875s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0044s ]
+SQL: SELECT * FROM `dk_users` WHERE `user_login` = 'admin' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SHOW COLUMNS FROM `dk_role_user` [ RunTime:0.0048s ]
+SQL: SELECT `role_id` FROM dk_role_user a INNER JOIN dk_role as b on a.role_id =b.id  WHERE `user_id` = '1' AND `status` = 1  [ RunTime:0.0039s ]
+SQL: UPDATE `dk_users` SET `user_login`='admin',`user_pass`='###0cd65a782c32c8200ac911602a225b9f',`user_nicename`='admin',`user_email`='admin@admin.com',`user_url`='',`avatar`='',`sex`='0',`birthday`='2000-01-01',`signature`='',`last_login_ip`='127.0.0.1',`last_login_time`='2017-10-13 10:05:24',`create_time`='2017-08-15 11:16:45',`user_activation_key`='',`user_status`='1',`score`='0',`user_type`='1',`coin`='0',`mobile`='' WHERE `id` = '1' [ RunTime:0.0003s ]
+
+[ 2017-10-13T10:33:03+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:18:57+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:19:03+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=195&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:19:07+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000949s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000153s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002322s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.001253s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.001481s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `dk_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dk_menu` [ RunTime:0.0030s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `dk_auth_rule` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `dk_menu` WHERE `id` = 195 LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: validate /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `dk_menu` WHERE `app` = 'Daikuan' AND `model` = 'Admin' AND `action` = 'index' LIMIT 1   [ RunTime:0.0024s ]
+NOTIC: [8] Undefined index: auto /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dk_menu` SET `parentid`='0',`name`='通用贷款',`app`='Daikuan',`model`='Admin',`action`='index',`data`='',`icon`='',`remark`='',`status`='0',`type`='0' WHERE `id` = 195 [ RunTime:0.0034s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_auth_rule` WHERE `name` = 'daikuan/admin/index' LIMIT 1   [ RunTime:0.0030s ]
+SQL: UPDATE `dk_auth_rule` SET `name`='daikuan/admin/index',`module`='Daikuan',`type`='admin_url',`title`='通用贷款' WHERE `name` = 'daikuan/admin/index' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dk_menu` WHERE `app` = 'Daikuan' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0002s ]
+NOTIC: [2] mkdir(): File exists /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-10-13T16:19:07+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=195&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:20:36+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:20:42+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=1&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:20:47+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000390s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000669s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001519s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000791s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000937s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `dk_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `dk_menu` [ RunTime:0.0041s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `dk_auth_rule` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `dk_menu` WHERE `id` = 1 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `dk_menu` WHERE `app` = 'Admin' AND `model` = 'Content' AND `action` = 'default' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dk_menu` SET `parentid`='0',`name`='内容管理',`app`='Admin',`model`='Content',`action`='default',`data`='',`icon`='th',`remark`='',`status`='0',`type`='0' WHERE `id` = 1 [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_auth_rule` WHERE `name` = 'admin/content/default' LIMIT 1   [ RunTime:0.0003s ]
+SQL: UPDATE `dk_auth_rule` SET `name`='admin/content/default',`module`='Admin',`type`='admin_url',`title`='内容管理' WHERE `name` = 'admin/content/default' [ RunTime:0.0004s ]
+SQL: SELECT * FROM `dk_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0007s ]
+NOTIC: [2] mkdir(): File exists /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-10-13T16:20:47+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=1&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:20:54+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=index
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:20:58+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=39&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+
+[ 2017-10-13T16:21:02+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit_post
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000681s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001873s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000817s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `dk_users` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `dk_users` WHERE `id` = '1' LIMIT 1   [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `dk_menu` [ RunTime:0.0049s ]
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+SQL: SHOW COLUMNS FROM `dk_auth_rule` [ RunTime:0.0034s ]
+SQL: SELECT * FROM `dk_menu` WHERE `id` = 39 LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: validate /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1185 行.
+SQL: SELECT `id` FROM `dk_menu` WHERE `app` = 'Admin' AND `model` = 'Extension' AND `action` = 'default' LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: auto /Users/aibaimm/Documents/myproject/web/php/web/daikaun/simplewind/Core/Library/Think/Model.class.php 第 1128 行.
+SQL: UPDATE `dk_menu` SET `parentid`='0',`name`='扩展工具',`app`='Admin',`model`='Extension',`action`='default',`data`='',`icon`='cloud',`remark`='',`status`='0',`type`='0' WHERE `id` = 39 [ RunTime:0.0003s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `dk_auth_rule` WHERE `name` = 'admin/extension/default' LIMIT 1   [ RunTime:0.0002s ]
+SQL: UPDATE `dk_auth_rule` SET `name`='admin/extension/default',`module`='Admin',`type`='admin_url',`title`='扩展工具' WHERE `name` = 'admin/extension/default' [ RunTime:0.0005s ]
+SQL: SELECT * FROM `dk_menu` WHERE `app` = 'Admin' ORDER BY `listorder` ASC,`app` ASC,`model` ASC,`action` ASC  [ RunTime:0.0008s ]
+NOTIC: [2] mkdir(): File exists /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Admin/Controller/MenuController.class.php 第 247 行.
+
+[ 2017-10-13T16:21:03+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Admin&m=Menu&a=edit&id=39&menuid=
+NOTIC: D方法实例化没找到模型类Common\Model\AuthRuleModel
+

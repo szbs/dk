@@ -1,0 +1,42 @@
+[ 2017-10-11T11:54:30+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=product&a=index
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: Run Behavior\CheckLangBehavior [ RunTime:0.000586s ]
+INFO: Run Common\Behavior\UrldecodeGetBehavior [ RunTime:0.000131s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002653s ]
+INFO: [ admin_begin ] --START--
+INFO: Run Common\Behavior\AdminDefaultLangBehavior [ RunTime:0.000530s ]
+INFO: [ admin_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `dk_js_pro` [ RunTime:0.0103s ]
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`='1' WHERE ( pid=1 ) [ RunTime:0.0028s ]
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`='1' WHERE ( pid=10 ) [ RunTime:0.0032s ]
+NOTIC: [8] Undefined offset: 11 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=11 ) [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 12 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=12 ) [ RunTime:0.0031s ]
+NOTIC: [8] Undefined offset: 13 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=13 ) [ RunTime:0.0032s ]
+NOTIC: [8] Undefined offset: 14 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=14 ) [ RunTime:0.0032s ]
+NOTIC: [8] Undefined offset: 15 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=15 ) [ RunTime:0.0031s ]
+NOTIC: [8] Undefined offset: 16 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=16 ) [ RunTime:0.0030s ]
+NOTIC: [8] Undefined offset: 17 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=17 ) [ RunTime:0.0033s ]
+NOTIC: [8] Undefined offset: 18 /Users/aibaimm/Documents/myproject/web/php/web/daikaun/application/Qianshan/Controller/ProductController.class.php 第 113 行.
+SQL: UPDATE `dk_js_pro` SET `displayorder`='0',`status`=NULL WHERE ( pid=18 ) [ RunTime:0.0012s ]
+
+[ 2017-10-11T13:32:27+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=Product&a=index
+ERR: 1:Can't create/write to file '/var/folders/1h/30j5h8px4cx4ddwppbv4mz3w0000gn/T/#sql2b0_124_0.MYI' (Errcode: 28)
+ [ SQL语句 ] : SHOW COLUMNS FROM `dk_js_pro`
+
+[ 2017-10-11T17:01:01+08:00 ] 127.0.0.1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=4
+ERR: 模板不存在:admin/themes/simplebootx/Qianshan/User/procheck.html
+
+[ 2017-10-11T17:26:47+08:00 ] ::1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: DateTime::__construct(): Failed to parse time string (1507714007) at position 8 (0): Unexpected character
+
+[ 2017-10-11T17:27:58+08:00 ] ::1 /web/daikaun/index.php?g=Qianshan&m=User&a=procheck&id=1
+ERR: DateTime::__construct(): Failed to parse time string (1507714078) at position 8 (7): Unexpected character
+
